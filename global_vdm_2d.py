@@ -33,7 +33,7 @@ rng = jax.random.PRNGKey(seed=0)
 np.random.seed(0)
 
 # flag = true then reconstruct x, freeze_x_decoder will freeze hidden feature 
-joinFlag = False # add the flag whether we need joined learning
+joinFlag = True # add the flag whether we need joined learning
 freeze_x_decoder = False
 shortcut = True
 # Make 8-bit swirl dataset
