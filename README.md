@@ -9,10 +9,13 @@ jaxlib, tensorflow, etc
 python global_vdm_2d.py
 
 ## some important parameters:
-### joinFlag = False # add the flag whether we need joined learning
-### freeze_x_decoder = False
-### shortcut = True
-### K=10 default, which can change based on experiments
+ joinFlag = False # add the flag whether we need joined learning
+ 
+ freeze_x_decoder = False
+ 
+ shortcut = True
+ 
+ K=10 default, which can change based on experiments
 
 
 ## reference
